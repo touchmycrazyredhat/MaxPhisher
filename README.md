@@ -2,17 +2,17 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/MaxPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/MaxPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/MaxPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/MaxPhisher.svg" width="140" height="28">
+  <img src="https://img.shields.io/github/stars/touchmycrazyredhat/MaxPhisher?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/forks/touchmycrazyredhat/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/watchers/touchmycrazyredhat/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/issues/touchmycrazyredhat/MaxPhisher?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/touchmycrazyredhat/MaxPhisher?style=for-the-badge&color=blue">
+  <img src="https://hits.dwyl.com/touchmycrazyredhat/MaxPhisher.svg" width="140" height="28">
 <br>
 <br>
-  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
+  <img src="https://img.shields.io/badge/Author-touchmycrazyredhat-purple?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-80%25-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+  <img src="https://img.shields.io/badge/Made%20from-anonymous-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
 </p>
 
@@ -36,7 +36,7 @@
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/MaxPhisher```
+ - ```git clone https://github.com/touchmycrazyredhat/MaxPhisher```
 
 ##### Enter the directory
  - ```cd MaxPhisher```
@@ -49,7 +49,7 @@
 
 #### Or, directly run
 ```
-wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/MaxPhisher.py && python3 maxphisher.py
+wget https://raw.githubusercontent.com/touchmycrazyredhat/MaxPhisher/main/MaxPhisher.py && python3 maxphisher.py
 
 ```
 
@@ -60,8 +60,8 @@ wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/MaxPhisher.py &
 
 ### Docker
 
- - `sudo docker pull kasroudra/maxphisher`
- - `sudo docker run --rm -it kasroudra/maxphisher`
+ - `sudo docker pull touchmycrazyredhat/maxphisher`
+ - `sudo docker run --rm -it touchmycrazyredhat/maxphisher`
 
 #### Options
 
@@ -143,7 +143,7 @@ If not found, php, ssh and python modoules will be installed on first run
 
 <h1 align="center">Example</h1>
 
-![MaxPhisher](https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/maxphisher.gif)
+![MaxPhisher](https://raw.githubusercontent.com/touchmycrazyredhat/MaxPhisher/main/files/maxphisher.gif)
 
  
 ## [!] Disclaimer
@@ -157,15 +157,15 @@ If not found, php, ssh and python modoules will be installed on first run
 [VidPhisher](https://github.com/KasRoudra/VidPhisher)
 [IP-Tracker](https://github.com/KasRoudra/IP-Tracker)
 [Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker)
-[Seeker](https://github.com/thewhiteh4t/seeker)
+[Seeker](https://github.com/trhacknon/seeker)
 
 ## [~] Find Me on :
 
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
+- [![Github](https://img.shields.io/badge/Github-touchmycrazyredhat-green?style=for-the-badge&logo=github)](https://github.com/touchmycrazyredhat)
 
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
+- [![Gmail](https://img.shields.io/badge/Gmail-touchmycrazyredhat-green?style=for-the-badge&logo=gmail)](mailto:touchmycrazyredhat@gmail.com)
 
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
+- [![Facebook](https://img.shields.io/badge/Facebook--green?style=for-the-badge&logo=facebook)](https://facebook.com/)
 
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
+- [![Messenger](https://img.shields.io/badge/Messenger--green?style=for-the-badge&logo=messenger)](https://m.me/)
 

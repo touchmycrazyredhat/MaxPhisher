@@ -12,9 +12,9 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='KasRoudra',
-    author_email='kasroudrakrd@gmail.com',
+    author_email='touchmycrazyredhat@gmail.com',
     license="GPLv3",
-    url='https://github.com/KasRoudra/MaxPhisher/',
+    url='https://github.com/touchmycrazyredhat/MaxPhisher/',
     scripts=['maxphisher'],
     install_requires=["requests", "bs4"]
 )
